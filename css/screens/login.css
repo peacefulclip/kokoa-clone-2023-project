@@ -62,3 +62,8 @@
     border: 2px solid gray;
     background: linear-gradient(#ffffff8b, #ffffff);
 }
+
+.login-form__input,
+.login-form__btn {
+    font-family: inherit;
+}

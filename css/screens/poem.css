@@ -10,8 +10,12 @@
     animation: slideInBottom 2s ease-in-out forwards;
 }
 
-.poem-screen p {
+.poem-screen h3 {
     animation: slideInBottom 3s ease-in-out forwards;
+}
+
+.poem-screen p {
+    animation: slideInBottom 4s ease-in-out forwards;
 }
 
 @keyframes slideInLeftDino {
@@ -40,10 +44,11 @@
     margin-top: 60px;
 }
 
-.poem-screen h2 {
+.poem-screen h3 {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 50px;
+    margin-top: -20px;
 }
 
 .poem-screen p {

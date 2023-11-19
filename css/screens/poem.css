@@ -1,0 +1,70 @@
+
+
+@keyframes slideInBottom {
+    0% {opacitiy: 0; transform: translateY(5000px);}
+    100% {opacity: 1; transform: translateY(0);}
+}
+
+.poem-title {
+    color: white;
+    animation: slideInBottom 2s ease-in-out forwards;
+}
+
+.poem-screen p {
+    animation: slideInBottom 3s ease-in-out forwards;
+}
+
+@keyframes slideInLeftDino {
+    0% {opacity: 0; transform: translateX(-200%);}
+    100% {opacity: 1; transform: translateX(0);}
+}
+
+.poem-screen img:nth-child(1) {
+    animation: slideInLeftDino 8s ease-in-out forwards;
+}
+
+@keyframes slideInRightSun {
+    0% {opacity: 0; transform: translateX(200%);}
+    100% {opacity: 1; transform: translateX(0);}
+}
+
+.poem-screen img:nth-child(2) {
+    animation: slideInRightSun 8s ease-in-out forwards;
+}
+
+.poem-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.poem-screen h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.poem-screen p {
+    padding: 10px 0px;
+}
+
+.poem-screen img {
+    height: 100px;
+    width: 100px;
+    margin: 10px -20px;
+}
+
+.poem-screen__images {
+    display: flex;
+}
+
+.poem-return {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+

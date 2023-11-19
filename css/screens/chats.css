@@ -1,0 +1,16 @@
+.chats-screen {
+    margin: 0px var(--horizontal-space);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.chats {
+   word-break: keep-all;
+}
+
+.chatting-icon {
+    height: 30px;
+    width: 30px;
+}

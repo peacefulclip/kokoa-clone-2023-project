@@ -1,0 +1,46 @@
+.friends-random-match {
+    margin: 0px var(--horizontal-space);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+    color: var(--blue);
+}
+
+.friends-random-match__image {
+    height: 40px;
+    width: 40px;
+    margin: 0px -5px;
+}
+
+.friends-screen {
+    margin: 10px var(--horizontal-space);
+}
+
+.friends-screen__channel-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends-screen__channel-header img {
+    height: 40px;
+    width: 40px;
+}
+
+.friends-screen__channel {
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.friends-screen__channel-header {
+    display: flex;
+    align-items: center;
+    border-top: 0.5px dotted var(--grey);
+}
+
+
+.friends-screen__channel-header span {
+    margin: 30px 0px;
+    color: var(--grey);
+    font-size: 16px;
+}

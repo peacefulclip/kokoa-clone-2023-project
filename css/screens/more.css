@@ -1,0 +1,51 @@
+
+
+.user-component__information {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.more-screen-user {
+    margin-top: 10px;
+}
+
+.user-component__subtitle {
+    position: relative;
+}
+
+.poem-link {
+    align-items: center;
+    justify-content: center;
+}
+
+.poem-link {
+    margin: 0px var(--horizontal-space);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+    color: var(--blue);
+}
+
+.poem-link a:visited,
+.poem-link a:active {
+    text-decoration: none;
+}
+
+.poem-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poem-link__image {
+    height: 40px;
+    width: 40px;
+    margin: 0px -5px;
+}
+
+.user-component__key {
+    height: 50px;
+    width: 50px;
+}

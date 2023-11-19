@@ -1,0 +1,139 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+
+.icon-row__icon img {
+    width: 100px;
+    height: 100px;
+    margin: 0px -20px;
+}
+
+.icon-row__icon span {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.find-screen {
+    margin: 0px 20px;
+}
+
+/**/
+@keyframes friendFloat {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-10px);
+	}
+	100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.recommended-friends__profiles {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.recommended-friends img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.recommended-friends {
+    border-top: 0.5px dotted var(--grey);
+    position: relative;
+}
+
+.recommended-friends__profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    animation: friendFloat 3s linear infinite;
+    position: absolute;
+}
+
+
+.recommended-friends__profile:nth-child(1) {
+    top: 140%;
+    left: 5%;
+    background-color: wheat;
+}
+
+.recommended-friends__profile:nth-child(2) {
+    top: 200%;
+    right: 5%;
+    background-color: tomato;
+}
+
+.recommended-friends__profile:nth-child(3) {
+    top: 180%;
+    right: 30%;
+    background-color: #0BEAEF;
+}
+
+.recommended-friends__profile:nth-child(4) {
+    top: 190%;
+    right: 58%;
+    background-color: yellowgreen;
+}
+
+
+
+.recommended-friends__title {
+    margin: 30px 0px;
+    color: var(--grey);
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.recommended-friends span {
+    display: block;
+    margin: 40px 0px;
+    text-align: center;
+    color: var(--font-grey);
+    font-size: 13px;
+}
+
+
+
+@keyframes selectAnimation {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: rgb(196, 96, 246);
+        transform: scale(1.2);
+    }
+        
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.recommended-friends__profile:hover {
+    will-change: transform;
+    animation: selectAnimation 2s linear infinite;
+}
